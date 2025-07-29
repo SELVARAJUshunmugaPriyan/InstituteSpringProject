@@ -57,4 +57,10 @@ public class InstituteController {
 	{
 		return is.getByName(x);
 	}
+	
+	@GetMapping(value="/test")
+	public String test()
+	{
+		return "test";
+	}
 }
